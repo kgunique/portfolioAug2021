@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px;
+    position: relative;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.mobilemenu{
+    display: none;
+}
+.icon_menu{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.webmenu{
+    display: flex;
+}
+.logo{
+    display: flex;
+    font-size: 2.2rem;
+    color: blueviolet;
+    font-weight: 800;
+}
+@media only screen and (max-width: 720px){
+.mobilemenu{
+    display: flex;
+}
+.webmenu{
+    display: none;
+}
+.logo{
+    font-size: 1.2rem;
+}
+}
