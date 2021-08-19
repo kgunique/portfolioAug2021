@@ -8,8 +8,7 @@ const About = () => {
                 <div className="about_info">
                     <p className="intro">Hi there  👋,<br />I am <span className="info_name">Karan Kumar,<br /> </span>
                     You can Call me <span className="info_name">KK </span>.</p>
-
-                    <p className="introquote">“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”</p>
+                    <p className="introquote">"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."</p>
                     <h5>---I never said that but I follows that</h5>
                 </div>
                 <div className="about_photo">
