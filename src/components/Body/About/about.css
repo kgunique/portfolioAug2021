@@ -8,6 +8,16 @@
     justify-content: space-between;
     align-items: center;
 }
+.intro{
+    /* border: 1px solid red; */
+    /* padding: 1rem; */
+    margin: 1rem 0;
+}
+.introquote{
+    font-size: 1.7rem;
+    color: blueviolet;
+    text-align: justify;
+}
 .about_photo{
     height: 30rem;
 }
@@ -31,9 +41,6 @@
         align-items: center;
     }
     .about_photo{
-        height: 10rem;
-    }
-    .about_photo img{
-        height: 10rem;
+       display: none;
     }
 }

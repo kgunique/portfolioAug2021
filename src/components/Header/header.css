@@ -14,6 +14,12 @@
 .mobilemenu{
     display: none;
 }
+.logo_img{
+    
+    display: none;
+    height:5rem;
+    width:5rem;
+}
 .icon_menu{
     background: transparent;
     border: none;
@@ -33,6 +39,9 @@
 @media only screen and (max-width: 720px){
 .mobilemenu{
     display: flex;
+}
+.logo_img{
+   display: flex;
 }
 .webmenu{
     display: none;
