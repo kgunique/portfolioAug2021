@@ -7,7 +7,7 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <div className="header">
-           <div className="logo"><img className ="logo_img"src ={require("../../asset/profile.png").default}alt = "logoimg"/>KK</div>
+           <div className="logo"><img className ="logo_img"src ={require("../../asset/profile.png").default}alt = "logoimg"/><>KK</></div>
            <div className="menu">
                <div className="webmenu"><Webmenu/></div>
                {/* Mobile menu */}

@@ -1,0 +1,26 @@
+.social_contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_container{
+    padding: 0.6rem;
+    margin: 0.6rem;
+    cursor: pointer;
+}
+.socialicon{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+@media only screen and (max-width:720px){
+    .social_container{
+        margin-top: 3rem;
+        padding: 0.3rem;
+    }
+    .socialicon{
+        height: 2rem;
+        width: 2rem;
+        border-radius: 50%;
+    }
+}

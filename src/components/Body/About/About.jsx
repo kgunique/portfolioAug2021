@@ -1,4 +1,5 @@
 import React from 'react'
+import Social from '../../common/socialcontact/Social'
 import './about.css'
 const About = () => {
     return (
@@ -16,7 +17,7 @@ const About = () => {
                 </div>
             </div>
             <div className="about_bottom">
-                This is social media icon
+                <Social/>
             </div>
         </div>
     )

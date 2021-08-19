@@ -1,5 +1,6 @@
 import React from 'react'
 import './mobilemenu.css'
+import {Work,EmojiObjects,Laptop,ContactPhone} from '@material-ui/icons';
 const Mobilemenu = ({isOpen,setIsOpen}) => {
     return (
         <div className="mobilemenucontainer">
@@ -9,22 +10,22 @@ const Mobilemenu = ({isOpen,setIsOpen}) => {
             <div className="mobileoptions">
             <div className="mobileoption">
                 <a href="#projects">
-                    Projects
+                <Work className= "muicons"/>Projects
                 </a>
             </div>
             <div className="mobileoption">
                 <a href="#skills">
-                    Skills
+                <EmojiObjects className= "muicons"/> Skills
                 </a>
             </div>
             <div className="mobileoption">
                 <a href="#work">
-                    Work
+                <Laptop className= "muicons"/>   Work
                 </a>
             </div>
             <div className="mobileoption">
                 <a href="#contact">
-                    Contact
+                <ContactPhone className= "muicons"/>  Contact
                 </a>
             </div>
             </div>
