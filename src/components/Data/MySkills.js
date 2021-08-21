@@ -49,7 +49,7 @@ export const MySkills = [
         ]
     },
     {
-        id:"sk2",
+        id:"sk3",
         type:"Graphics Design",
         list:[
             {

@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <div className="projects">
             <Seperator/>
-            <label className="projects_title">My Projects</label>
+            <label className="section_title">My Projects</label>
             <div>{
                 MyProjects.map((project)=>{
                     return(

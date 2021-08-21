@@ -8,7 +8,7 @@ const Skills = () => {
     return (
         <div className="skills">
             <Seperator />
-            <div className="skills_title">Skills</div>
+            <div className="section_title">Skills</div>
             <div className="skills_container">
                 {
                     skill.map((eachskill)=>{
@@ -28,7 +28,6 @@ const Skills = () => {
                         )
                     })
                 }
-
             </div>
         </div>
     )

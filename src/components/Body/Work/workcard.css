@@ -1,0 +1,31 @@
+.workcard{
+    padding: 0.8rem;
+    width: 40%;
+    margin-top: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.work_logo{
+    height: 5rem;
+}
+.work_info{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.company_name{
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin:0.5rem 0;
+}
+.work_desc{
+    font-size: 1rem;
+    color: gray;
+    font-weight: 200;
+}
+@media only screen and (max-width:700px){
+    .workcard{
+        width: 100%;
+    }
+}
