@@ -1,11 +1,11 @@
 import React from 'react'
 import './mobilemenu.css'
-import {Work,EmojiObjects,Laptop,ContactPhone} from '@material-ui/icons';
+import {Work,EmojiObjects,Laptop,ContactPhone,Close} from '@material-ui/icons';
 const Mobilemenu = ({isOpen,setIsOpen}) => {
     return (
         <div className="mobilemenucontainer">
             <div className="closeicon">
-                <button className="closeiconbutton" onClick={()=>{setIsOpen(!isOpen)}}>X</button>
+                <button className="closeiconbutton" onClick={()=>{setIsOpen(!isOpen)}}><Close/></button>
             </div>
             <div className="mobileoptions">
             <div className="mobileoption">
@@ -20,12 +20,12 @@ const Mobilemenu = ({isOpen,setIsOpen}) => {
             </div>
             <div className="mobileoption">
                 <a href="#work">
-                <Laptop className= "muicons"/>   Work
+                <Laptop className= "muicons"/>Work
                 </a>
             </div>
             <div className="mobileoption">
                 <a href="#contact">
-                <ContactPhone className= "muicons"/>  Contact
+                <ContactPhone className= "muicons"/>Contact
                 </a>
             </div>
             </div>

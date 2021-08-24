@@ -31,6 +31,10 @@ export const MySkills = [
                 name:" Mat-UI",
                 icon:<i className="devicon-materialui-plain colored"></i>
             },
+            {
+                name:" Tailwind CSS",
+                icon:<i className="devicon-tailwindcss-original-wordmark colored"></i>
+            },
           
         ]
     },

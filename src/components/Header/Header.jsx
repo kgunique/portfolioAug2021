@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import './header.css';
 import Mobilemenu from './Mobilemenu/Mobilemenu';
 import Webmenu from './Webmenu/Webmenu';
+import {Menu} from '@material-ui/icons';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -12,7 +13,7 @@ const Header = () => {
                <div className="webmenu"><Webmenu/></div>
                {/* Mobile menu */}
                <div className="mobilemenu">
-                   <button  className="icon_menu"onClick={()=>setIsOpen(!isOpen)}>=</button>
+                   <button  className="icon_menu"onClick={()=>setIsOpen(!isOpen)}><Menu/></button>
                    {
                         isOpen && <Mobilemenu isOpen={isOpen} setIsOpen={setIsOpen}/>
                     }

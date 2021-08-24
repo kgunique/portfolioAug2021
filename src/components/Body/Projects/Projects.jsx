@@ -6,7 +6,7 @@ import './projects.css'
 const Projects = () => {
     const MyProjects = ProjectData
     return (
-        <div className="projects">
+        <div className="projects" id="projects">
             <Seperator/>
             <label className="section_title">My Projects</label>
             <div>{

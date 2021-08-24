@@ -6,7 +6,7 @@ import Skillcard from './Skillcard';
 const Skills = () => {
     const skill = MySkills;
     return (
-        <div className="skills">
+        <div className="skills" id="skills">
             <Seperator />
             <div className="section_title">Skills</div>
             <div className="skills_container">

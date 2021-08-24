@@ -5,7 +5,7 @@ import Social from '../../common/socialcontact/Social'
 import {CloudDownload} from '@material-ui/icons/';
 const Contact = () => {
     return (
-        <div className="contact">
+        <div className="contact" id= "contact">
             <Seperator />
             <label className="section_title">Contact</label>
             <div className="contact_container">

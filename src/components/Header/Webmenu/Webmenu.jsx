@@ -7,7 +7,7 @@ const Webmenu = () => {
         <div className="webmenucontainer">
             <div className="weboption">
                 <a href="#projects">
-                    <Work className= "muicons"/>
+                    <Work className="muicons"/>
                     Projects
                 </a>
             </div>
