@@ -10,6 +10,15 @@ export const ProjectData = [
     },
     {
         id:"p2",
+        title:"Airbnb Clone",
+        demo:"https://reverent-villani-e8d436.netlify.app/",
+        github:"https://github.com/kgunique/Airbnb-clone",
+        description:"This is a clone of a House Rental company and beautiful home stays.",
+        tags:["NextJS","Tailwind CSS","React"],
+        image:require("../../asset/Airbnb.jpg").default,
+    },
+    {
+        id:"p3",
         title:"React DashBoard",
         demo:"https://nifty-wozniak-1e8034.netlify.app/",
         github:"https://github.com/kgunique/Reactdashboard",
@@ -17,4 +26,5 @@ export const ProjectData = [
         tags:["ReactJs","MaterialUi","ChartJS","Bootstrap"],
         image:require("../../asset/dashboard_img.jpg").default,
     },
+       
 ]
