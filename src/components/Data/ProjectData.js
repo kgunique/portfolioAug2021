@@ -36,8 +36,8 @@ export const ProjectData = [
         image:require("../../asset/netflix.jpg").default,
     },
            {
-        id:"p4",
-        title:"Netflix-clone",
+        id:"p5",
+        title:"Tip Calculator",
         demo:"https://stoic-boyd-f9de02.netlify.app",
         github:"https://github.com/kgunique/tip-calc-frontend-mentor-challenge",
         description:"This is a challenge code given By Frontend Mentor website. This small app lets you calculate how much tip to be given per person.",
