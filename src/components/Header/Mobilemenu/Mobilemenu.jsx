@@ -1,6 +1,6 @@
 import React from 'react'
 import './mobilemenu.css'
-import {Work,EmojiObjects,Laptop,ContactPhone,Close} from '@material-ui/icons';
+import {Work,EmojiObjects,Laptop,ContactPhone,Close,FormatQuote} from '@material-ui/icons';
 const Mobilemenu = ({isOpen,setIsOpen}) => {
     return (
         <div className="mobilemenucontainer">
@@ -26,6 +26,11 @@ const Mobilemenu = ({isOpen,setIsOpen}) => {
             <div className="mobileoption">
                 <a href="#contact">
                 <ContactPhone className= "muicons"/>Contact
+                </a>
+            </div>
+            <div className="mobileoption">
+                <a href="#quote">
+                <FormatQuote className= "muicons"/>Quote
                 </a>
             </div>
             </div>

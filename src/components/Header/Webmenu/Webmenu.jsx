@@ -1,6 +1,6 @@
 import React from 'react'
 import './webmenu.css';
-import {Work,EmojiObjects,Laptop,ContactPhone} from '@material-ui/icons';
+import {Work,EmojiObjects,Laptop,ContactPhone,FormatQuote} from '@material-ui/icons';
 
 const Webmenu = () => {
     return (
@@ -24,6 +24,11 @@ const Webmenu = () => {
             <div className="weboption">
                 <a href="#contact">
                     <ContactPhone className= "muicons"/>Contact
+                </a>
+            </div>
+            <div className="weboption">
+                <a href="#quote">
+                    <FormatQuote className= "muicons"/>Quote
                 </a>
             </div>
         </div>

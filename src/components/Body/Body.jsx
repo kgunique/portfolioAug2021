@@ -5,6 +5,7 @@ import Projects from './Projects/Projects'
 import Skills from './Skills/Skills'
 import Work from './Work/Work'
 import Contact from './Contact/Contact'
+import Quote from './Quote/Quote'
 
 const Body = () => {
     return (
@@ -12,6 +13,9 @@ const Body = () => {
         <div className="body">
             <section id = "#about">
                 <About />
+            </section>
+            <section id="#quote">
+                <Quote />
             </section>
             <section id = "#projects">
                 <Projects />

@@ -1,0 +1,112 @@
+.quote{
+    height: 500px;
+    width: 100%;
+    /* background: #000; */
+    color: black;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+span{
+    color: crimson;
+}
+.quoteheading{
+    /* background-color: red; */
+    padding: 20px;
+    line-height: 60px;
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 32px;
+}
+.quoteboxcontainer{
+    height: 300px;
+    /* background: yellow; */
+    width: 80%;
+    margin: auto;
+    border-radius: 0.5rem;
+}
+.quotebox{
+    color: black;
+    font-size: 2rem;
+    overflow: hidden;
+    user-select: none;
+}
+.quotebuttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+    /* border: 1px solid red; */
+}
+.socialshare{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid; */
+    padding: 10px;
+}
+.fbshare{
+    margin-right: 20px;
+}
+.nextsharebtn{
+    padding: 10px;
+}
+button{
+    background: transparent;
+    padding: 5px;
+    font-size: 20px;
+    user-select: none;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+button:hover{
+    border: 2px solid black;
+    border-left: none;
+    background-color: turquoise;
+}
+.nextquote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width:720px){
+    .quote{
+        height: 550px;
+    }
+    .quoteheading{
+        padding: 5px;
+    }
+    .quoteboxcontainer{
+        height: 300px;
+    }
+    .quotebox{
+        font-size:1.8rem;
+        flex-wrap: wrap;
+    }
+    .quotebuttons{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .socialshare{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+/* @media only screen and (max-width:320px){
+    .quoteheading{
+        padding: 5px;
+    }
+    .quoteboxcontainer{
+        height: 200px;
+    }
+    .quotebox{
+        font-size: 0.5rem;
+    }
+} */
