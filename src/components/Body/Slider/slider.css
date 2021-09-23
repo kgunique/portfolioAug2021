@@ -1,0 +1,31 @@
+/* .slider{
+   
+} */
+.each-slide{
+    border: 1px solid red;
+    width: 100%;
+    
+}
+.each-slide>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 700px;
+   
+    /* border: 1px solid red; */
+    /* object-fit: contain; */
+  }
+  
+  /* .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  } */
+  @media only screen and (max-width:920px){
+      .each-slide>div{
+          background-size: cover;
+          height: 355px;
+      }
+  }

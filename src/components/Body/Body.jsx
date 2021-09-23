@@ -6,6 +6,7 @@ import Skills from './Skills/Skills'
 import Work from './Work/Work'
 import Contact from './Contact/Contact'
 import Quote from './Quote/Quote'
+import Slider from './Slider/Slider'
 
 const Body = () => {
     return (
@@ -16,6 +17,9 @@ const Body = () => {
             </section>
             <section id="#quote">
                 <Quote />
+            </section>
+            <section id="#slider">
+                <Slider />
             </section>
             <section id = "#projects">
                 <Projects />
