@@ -40,7 +40,9 @@ const Quote = () => {
                     <p>{quote}</p>
                     <h6>{author}</h6>
                 </div>
-                <div className="quotebuttons">
+             
+            </div>
+            <div className="quotebuttons">
                 {/* <div className="socialshare">
                     <button className="fbshare">Share on Facebook</button>
                     <button className="twittershare">Share on Twitter</button>
@@ -48,7 +50,6 @@ const Quote = () => {
                 <div className="nextsharebtn">
                 <button onClick = {handleClick} className="nextquote">Next<DoubleArrow/></button>
                 </div>
-            </div>
             </div>
            
         </div>
