@@ -1,10 +1,10 @@
 export const WorkDT = [
     {
         id:"work1",
-        company:"99Paisa.com",
+        company:"Zpay Solutions pvt. ltd.",
         designation:"Front End Developer",
-        companylogo:"https://99paisa.com/assets/images/logo.png",
-        work:"Develop and design web pages"
+        companylogo:"http://zpaysolutions.com/img/logo.png",
+        work:"Assistant Developer"
     },
     {
         id:"work2",

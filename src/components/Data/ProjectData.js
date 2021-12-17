@@ -19,12 +19,12 @@ export const ProjectData = [
     },
     {
         id:"p3",
-        title:"React DashBoard",
-        demo:"https://nifty-wozniak-1e8034.netlify.app/",
-        github:"https://github.com/kgunique/Reactdashboard",
-        description:"This is a dashboard created using react to understanding that how we can use the component of material Ui.",
-        tags:["ReactJs","MaterialUi","ChartJS","Bootstrap"],
-        image:require("../../asset/dashboard_img.jpg").default,
+        title:"Bhari Commision",
+        demo:"https://optimistic-visvesvaraya-f127ca.netlify.app/",
+        github:"https://github.com/kgunique/bharicom",
+        description:"Bhari Commision is developed for the affiliates for Big Plateform Like BigBazaar , Amazon , BigBasket to provide customers a commision on every purchase they made.",
+        tags:["ReactJs","Bootstrap","Bootstrap"],
+        image:require("../../asset/bharicommision.jpg").default,
     },
        {
         id:"p4",
