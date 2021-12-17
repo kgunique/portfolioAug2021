@@ -1,13 +1,4 @@
 export const ProjectData = [
-    // {
-    //     id:"p1",
-    //     title:"KK_Portfolio",
-    //     demo:"https://quirky-knuth-d4c236.netlify.app/",
-    //     github:"https://github.com/kgunique/portfolioAug2021",
-    //     description:"This is the same that you are visiting now.",
-    //     tags:["ReactJs","MaterialUi","JSON"],
-    //     image:require("../../asset/portfolio_img.jpg").default,
-    // },
     {
         id:"p2",
         title:"Airbnb Clone",
@@ -19,10 +10,10 @@ export const ProjectData = [
     },
     {
         id:"p3",
-        title:"Bhari Commision",
+        title:"Affilaites",
         demo:"https://optimistic-visvesvaraya-f127ca.netlify.app/",
         github:"https://github.com/kgunique/bharicom",
-        description:"Bhari Commision is developed for the affiliates for Big Plateform Like BigBazaar , Amazon , BigBasket to provide customers a commision on every purchase they made.",
+        description:"To earn the commison on your every purchase this portal helps you to find some discounted products on big Plateforms like Big Bazaar , Amazon , Big Basket.",
         tags:["ReactJs","Bootstrap","Bootstrap"],
         image:require("../../asset/bharicommision.jpg").default,
     },
