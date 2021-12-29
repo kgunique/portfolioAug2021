@@ -26,7 +26,7 @@ export const ProjectData = [
         tags:["ReactJs","TMDB","Redux","CSS","firebase"],
         image:require("../../asset/netflix.jpg").default,
     },
-           {
+    {
         id:"p5",
         title:"Tip Calculator",
         demo:"https://stoic-boyd-f9de02.netlify.app",
@@ -34,6 +34,15 @@ export const ProjectData = [
         description:"This is a challenge code given By Frontend Mentor website. This small app lets you calculate how much tip to be given per person.",
         tags:["HTML","CSS","JAVASCRIPT"],
         image:require("../../asset/tipcal.jpg").default,
+    },
+    {
+        id:"p6",
+        title:"Alyssum Landing Page (UI Only)",
+        demo:"https://pedantic-brahmagupta-63d569.netlify.app/",
+        github:"Private File",
+        description:"Desktop landing Page of Alyssum",
+        tags:["React","CSS","Bootstrap"],
+        image:require("../../asset/alyssum.jpg").default,
     },
        
 ]
